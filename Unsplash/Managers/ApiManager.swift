@@ -12,8 +12,6 @@ final class ApiManager {
     private let accessKey = "EwUxFKIlfzSuadr7kPJIzz2TKamoCUrp4y-oE8jOcyo"
     private let header = "Authorization"
     
-    private let secretKey = "lbGQ4Y-1OPgWgyfT6UAWsPwzu1WBmBpMpgi1DcBvD0I"
-    
     private func photosFrom(searchData: SearchData) -> [Photo] {
         var photos: [Photo] = []
         searchData.results.forEach { result in
